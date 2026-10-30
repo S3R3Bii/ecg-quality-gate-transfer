@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-10-30T20:13:41.051793+00:00",
+  "version": "Source-qualified checkpoint before features",
+  "status": "INCOMPLETE_SOURCE_PASS_ANALYSIS_PENDING",
+  "grade": 3,
+  "criteria": {
+    "source": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "37 preserved files, publisher SHA256 matches, all 18,200,000 digital/physical values independently reconciled; 8,812,800 clean-interval cells and native metadata checks; no raw headers or waveforms public"
+    },
+    "separation": {
+      "state": "pass_at_this_checkpoint",
+      "evidence": "No recording119 feature or performance output; no threshold selected"
+    },
+    "numerical_analysis": {
+      "state": "unknown"
+    },
+    "figures_manuscript_replay_release": {
+      "state": "unknown"
+    }
+  },
+  "failures_retained": [
+    "Original absolute-voltage clean-interval assertion; corrected against documented NST segment offsets before features"
+  ],
+  "budget": {
+    "substantive_review_round": 1,
+    "maximum_rounds": 3,
+    "active_review_limit_minutes": 45,
+    "review_tool_call_limit": 60,
+    "exact_review_calls": "Not fully instrumented; actual commands/results retained",
+    "active_review_time": "Not separately timed; acquisition/execution separate from review"
+  },
+  "usage": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-30T20:11:46Z",
+    "window_minutes": 10080,
+    "used_percent": 48,
+    "remaining_percent": 52,
+    "reset_unix": 1793910839,
+    "secondary": "unavailable",
+    "shared_account_not_task_consumption": true
+  }
+}

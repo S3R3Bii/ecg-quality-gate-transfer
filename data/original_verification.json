@@ -1,0 +1,1915 @@
+{
+  "status": "PASS_ORIGINALS_AND_INDEPENDENT_WFDB",
+  "wfdb_version": "4.3.1",
+  "numpy_version": "2.2.5",
+  "records": 14,
+  "digital_samples_compared": 18200000,
+  "physical_samples_compared": 18200000,
+  "clean_interval_cells_checked": 8812800,
+  "recording119_feature_or_performance_output": false,
+  "original_files_unchanged": true,
+  "native_records": [
+    {
+      "dataset": "mitdb",
+      "record": "118",
+      "signals": [
+        {
+          "file": "118.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 1024,
+          "initial": 857,
+          "checksum": 8669,
+          "label": "MLII"
+        },
+        {
+          "file": "118.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 1024,
+          "initial": 921,
+          "checksum": -25621,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "48a3d0c4e7742ca0e39a2cbb3ea5142a4d41261adbd0bb25651e0fcd9c6aef2b",
+      "signal_sha256": "66ea4b70b7d64abd0f49089ae1b8f0f577664c46e5b29ac23b291934e063df15",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": []
+    },
+    {
+      "dataset": "mitdb",
+      "record": "119",
+      "signals": [
+        {
+          "file": "119.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 1024,
+          "initial": 825,
+          "checksum": 2943,
+          "label": "MLII"
+        },
+        {
+          "file": "119.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 1024,
+          "initial": 930,
+          "checksum": -26388,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "658f01382d7280a06e2f4c06363569d477394a6898c69ee788bb383f6092df63",
+      "signal_sha256": "02a286a28e69b441568add915f16a2856b22bab893bf8729ee9654411ed3a5aa",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": []
+    },
+    {
+      "dataset": "nstdb",
+      "record": "118e24",
+      "signals": [
+        {
+          "file": "118e24.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -167,
+          "checksum": -13451,
+          "label": "MLII"
+        },
+        {
+          "file": "118e24.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -103,
+          "checksum": 32392,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "87773e0313f872a4e13ef3fe5a6ff314080fc843baa11d99f8218e5e413d1cee",
+      "signal_sha256": "fe313df01e72c7134cc1caee92394d02966569ac4ef6f5cc571a4cd70d94d78c",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1068,
+            -1011
+          ],
+          "maximum_offset_adc": [
+            -1068,
+            -1011
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -980,
+            -1061
+          ],
+          "maximum_offset_adc": [
+            -980,
+            -1061
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1027,
+            -1054
+          ],
+          "maximum_offset_adc": [
+            -1027,
+            -1054
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1039,
+            -1043
+          ],
+          "maximum_offset_adc": [
+            -1039,
+            -1043
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -954,
+            -1028
+          ],
+          "maximum_offset_adc": [
+            -954,
+            -1028
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -950,
+            -1071
+          ],
+          "maximum_offset_adc": [
+            -950,
+            -1071
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "118e18",
+      "signals": [
+        {
+          "file": "118e18.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -167,
+          "checksum": 25073,
+          "label": "MLII"
+        },
+        {
+          "file": "118e18.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -103,
+          "checksum": -3026,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "8274159d47e8f4f57dccb0b2de015ff8927a9f6975563e3fb9703903fd5dea71",
+      "signal_sha256": "d0e5b78460e1b2fbcd6ca7435fa64b102ce747d3fdc4685f6761f6cf79cac9d8",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1113,
+            -998
+          ],
+          "maximum_offset_adc": [
+            -1113,
+            -998
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -940,
+            -1099
+          ],
+          "maximum_offset_adc": [
+            -940,
+            -1099
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1033,
+            -1085
+          ],
+          "maximum_offset_adc": [
+            -1033,
+            -1085
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1057,
+            -1064
+          ],
+          "maximum_offset_adc": [
+            -1057,
+            -1064
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -888,
+            -1036
+          ],
+          "maximum_offset_adc": [
+            -888,
+            -1036
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -881,
+            -1123
+          ],
+          "maximum_offset_adc": [
+            -881,
+            -1123
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "118e12",
+      "signals": [
+        {
+          "file": "118e12.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -167,
+          "checksum": -10416,
+          "label": "MLII"
+        },
+        {
+          "file": "118e12.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -103,
+          "checksum": -23139,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "3d4bb4b96d47a7b3900bf2207eefbe9f1e294901dcbddbb470ae190fb7f1b0b4",
+      "signal_sha256": "7d25e59e68400aa40b435caed153b32f0333f2445f2f21d7409c612c0dc3761c",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1202,
+            -973
+          ],
+          "maximum_offset_adc": [
+            -1202,
+            -973
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -858,
+            -1176
+          ],
+          "maximum_offset_adc": [
+            -858,
+            -1176
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1044,
+            -1150
+          ],
+          "maximum_offset_adc": [
+            -1044,
+            -1150
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1092,
+            -1109
+          ],
+          "maximum_offset_adc": [
+            -1092,
+            -1109
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -755,
+            -1055
+          ],
+          "maximum_offset_adc": [
+            -755,
+            -1055
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -739,
+            -1229
+          ],
+          "maximum_offset_adc": [
+            -739,
+            -1229
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "118e06",
+      "signals": [
+        {
+          "file": "118e06.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -167,
+          "checksum": 25488,
+          "label": "MLII"
+        },
+        {
+          "file": "118e06.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -103,
+          "checksum": -30272,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "97a7042b0c23d63adab1106f7d47882e915c7c1db6e7ee2519367e3e55cb3b6f",
+      "signal_sha256": "ac6848a54bcdb05a3bf8266cca7970d97f8575334ec6e28bdd88b6d24e568ff1",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1381,
+            -922
+          ],
+          "maximum_offset_adc": [
+            -1381,
+            -922
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -697,
+            -1327
+          ],
+          "maximum_offset_adc": [
+            -697,
+            -1327
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1068,
+            -1276
+          ],
+          "maximum_offset_adc": [
+            -1068,
+            -1276
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1164,
+            -1194
+          ],
+          "maximum_offset_adc": [
+            -1164,
+            -1194
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -492,
+            -1086
+          ],
+          "maximum_offset_adc": [
+            -492,
+            -1086
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -461,
+            -1434
+          ],
+          "maximum_offset_adc": [
+            -461,
+            -1434
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "118e00",
+      "signals": [
+        {
+          "file": "118e00.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -167,
+          "checksum": 29505,
+          "label": "MLII"
+        },
+        {
+          "file": "118e00.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -103,
+          "checksum": -16890,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "9317736e3a91040d35a94e1ccb188ccea59f7f9dd2331b40df52fe9f19a79c45",
+      "signal_sha256": "e4174f9def17dff5a3520e14425b70a66b51c596b568bec52c193471f30c64d3",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1737,
+            -819
+          ],
+          "maximum_offset_adc": [
+            -1737,
+            -819
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -371,
+            -1628
+          ],
+          "maximum_offset_adc": [
+            -371,
+            -1628
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1112,
+            -1527
+          ],
+          "maximum_offset_adc": [
+            -1112,
+            -1527
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1305,
+            -1365
+          ],
+          "maximum_offset_adc": [
+            -1305,
+            -1365
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            36,
+            -1150
+          ],
+          "maximum_offset_adc": [
+            36,
+            -1150
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            100,
+            -1845
+          ],
+          "maximum_offset_adc": [
+            100,
+            -1845
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "118e_6",
+      "signals": [
+        {
+          "file": "118e_6.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -167,
+          "checksum": 1467,
+          "label": "MLII"
+        },
+        {
+          "file": "118e_6.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -103,
+          "checksum": 26893,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "f9c5fb86ecf3a8cd40d2b3f9f4b59d02afea3ea45eba3b448eed492aa1467ab4",
+      "signal_sha256": "6cd17f65bf51bec446cefd3daf6bea9b285d280298fc3abae7c3661a34cb442e",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -2447,
+            -613
+          ],
+          "maximum_offset_adc": [
+            -2447,
+            -613
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            278,
+            -2229
+          ],
+          "maximum_offset_adc": [
+            278,
+            -2229
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1200,
+            -2029
+          ],
+          "maximum_offset_adc": [
+            -1200,
+            -2029
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1585,
+            -1707
+          ],
+          "maximum_offset_adc": [
+            -1585,
+            -1707
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            1091,
+            -1279
+          ],
+          "maximum_offset_adc": [
+            1091,
+            -1279
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            1220,
+            -2667
+          ],
+          "maximum_offset_adc": [
+            1220,
+            -2667
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "119e24",
+      "signals": [
+        {
+          "file": "119e24.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -199,
+          "checksum": 17991,
+          "label": "MLII"
+        },
+        {
+          "file": "119e24.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -94,
+          "checksum": -25593,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "a9be0c0f0daa1faf46364aaa8d8ffbe6d56ca7dd4572ef810409ceb98e5548fc",
+      "signal_sha256": "affba7ddda1f1f86b2fb79449e8c79ff9b674a3b480b5ab12139c7c435941acb",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1062,
+            -1017
+          ],
+          "maximum_offset_adc": [
+            -1062,
+            -1017
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -986,
+            -1044
+          ],
+          "maximum_offset_adc": [
+            -986,
+            -1044
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1027,
+            -1039
+          ],
+          "maximum_offset_adc": [
+            -1027,
+            -1039
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1038,
+            -1032
+          ],
+          "maximum_offset_adc": [
+            -1038,
+            -1032
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -965,
+            -1023
+          ],
+          "maximum_offset_adc": [
+            -965,
+            -1023
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -961,
+            -1047
+          ],
+          "maximum_offset_adc": [
+            -961,
+            -1047
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "119e18",
+      "signals": [
+        {
+          "file": "119e18.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -199,
+          "checksum": -20527,
+          "label": "MLII"
+        },
+        {
+          "file": "119e18.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -94,
+          "checksum": 25514,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "50607b7b8f60487964832bc2b607d6203cd3e37487b07391be275adc0928b862",
+      "signal_sha256": "0d879b564d94bfbf7f8f57e2fe3adb5e2d9f58210aa22c9e16b68b2e112d8129",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1101,
+            -1010
+          ],
+          "maximum_offset_adc": [
+            -1101,
+            -1010
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -951,
+            -1065
+          ],
+          "maximum_offset_adc": [
+            -951,
+            -1065
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1032,
+            -1057
+          ],
+          "maximum_offset_adc": [
+            -1032,
+            -1057
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1053,
+            -1045
+          ],
+          "maximum_offset_adc": [
+            -1053,
+            -1045
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -907,
+            -1029
+          ],
+          "maximum_offset_adc": [
+            -907,
+            -1029
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -900,
+            -1077
+          ],
+          "maximum_offset_adc": [
+            -900,
+            -1077
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "119e12",
+      "signals": [
+        {
+          "file": "119e12.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -199,
+          "checksum": 3821,
+          "label": "MLII"
+        },
+        {
+          "file": "119e12.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -94,
+          "checksum": -12246,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "6497aa15b9ee502cf832501a2272a09e74d71afecac322f8fc7ef8b43e9769a0",
+      "signal_sha256": "d0aa322b0d5e8ea56d5245ce6660fd9effc6a170b1772c08493438a51c08465c",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1178,
+            -995
+          ],
+          "maximum_offset_adc": [
+            -1178,
+            -995
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -880,
+            -1107
+          ],
+          "maximum_offset_adc": [
+            -880,
+            -1107
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1041,
+            -1092
+          ],
+          "maximum_offset_adc": [
+            -1041,
+            -1092
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1083,
+            -1068
+          ],
+          "maximum_offset_adc": [
+            -1083,
+            -1068
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -791,
+            -1038
+          ],
+          "maximum_offset_adc": [
+            -791,
+            -1038
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -778,
+            -1134
+          ],
+          "maximum_offset_adc": [
+            -778,
+            -1134
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "119e06",
+      "signals": [
+        {
+          "file": "119e06.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -199,
+          "checksum": -29401,
+          "label": "MLII"
+        },
+        {
+          "file": "119e06.dat",
+          "format": "212",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -94,
+          "checksum": -26892,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "91536e9f794ea4a947e05bcea761fff8b4f444be2a11920f36f49d44eff5d30d",
+      "signal_sha256": "08866e9afb2dc7e0dbcca61044b3da60d1361983f12a7155d77461a0639f0319",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1333,
+            -966
+          ],
+          "maximum_offset_adc": [
+            -1333,
+            -966
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -741,
+            -1190
+          ],
+          "maximum_offset_adc": [
+            -741,
+            -1190
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1062,
+            -1161
+          ],
+          "maximum_offset_adc": [
+            -1062,
+            -1161
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1146,
+            -1115
+          ],
+          "maximum_offset_adc": [
+            -1146,
+            -1115
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -564,
+            -1055
+          ],
+          "maximum_offset_adc": [
+            -564,
+            -1055
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -537,
+            -1248
+          ],
+          "maximum_offset_adc": [
+            -537,
+            -1248
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "119e00",
+      "signals": [
+        {
+          "file": "119e00.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -199,
+          "checksum": 989,
+          "label": "MLII"
+        },
+        {
+          "file": "119e00.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -94,
+          "checksum": -21328,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "e2957931f2e0a356f3c1e7dae1bc24795a4a574f86535c0c16ccdc2e3323f98d",
+      "signal_sha256": "776efbffe8a4f3ec2dc86d4cd0c82c2fc659c911412df4b1581d9dd09430d720",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -1641,
+            -909
+          ],
+          "maximum_offset_adc": [
+            -1641,
+            -909
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            -459,
+            -1358
+          ],
+          "maximum_offset_adc": [
+            -459,
+            -1358
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1100,
+            -1302
+          ],
+          "maximum_offset_adc": [
+            -1100,
+            -1302
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1266,
+            -1212
+          ],
+          "maximum_offset_adc": [
+            -1266,
+            -1212
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            -105,
+            -1092
+          ],
+          "maximum_offset_adc": [
+            -105,
+            -1092
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            -50,
+            -1477
+          ],
+          "maximum_offset_adc": [
+            -50,
+            -1477
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "nstdb",
+      "record": "119e_6",
+      "signals": [
+        {
+          "file": "119e_6.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -199,
+          "checksum": 9054,
+          "label": "MLII"
+        },
+        {
+          "file": "119e_6.dat",
+          "format": "16",
+          "gain": 200.0,
+          "baseline": 1024,
+          "units": "mV",
+          "units_defaulted": true,
+          "adc_resolution": 11,
+          "adc_zero": 0,
+          "initial": -94,
+          "checksum": -5176,
+          "label": "V1"
+        }
+      ],
+      "sample_rate": 360,
+      "samples": 650000,
+      "header_sha256": "15e07dc4bbc56920d4584e5fb338f816e492774be6d4c71e82c6938c3aa331c2",
+      "signal_sha256": "e01f43c58c57d15519707b60e5d5d59e115d85894c8418c9054758bb21dc399b",
+      "digital_sample_comparison": "all_equal",
+      "physical_conversion": "all_within_1e-14_mV",
+      "clean_segment_shape_checks": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "minimum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "maximum_offset_adc": [
+            -1024,
+            -1024
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 540,
+          "minimum_offset_adc": [
+            -2256,
+            -796
+          ],
+          "maximum_offset_adc": [
+            -2256,
+            -796
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 780,
+          "minimum_offset_adc": [
+            104,
+            -1693
+          ],
+          "maximum_offset_adc": [
+            104,
+            -1693
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 900,
+          "end_seconds": 1020,
+          "minimum_offset_adc": [
+            -1175,
+            -1582
+          ],
+          "maximum_offset_adc": [
+            -1175,
+            -1582
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1260,
+          "minimum_offset_adc": [
+            -1508,
+            -1403
+          ],
+          "maximum_offset_adc": [
+            -1508,
+            -1403
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1380,
+          "end_seconds": 1500,
+          "minimum_offset_adc": [
+            809,
+            -1164
+          ],
+          "maximum_offset_adc": [
+            809,
+            -1164
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        },
+        {
+          "start_seconds": 1620,
+          "end_seconds": 1740,
+          "minimum_offset_adc": [
+            921,
+            -1933
+          ],
+          "maximum_offset_adc": [
+            921,
+            -1933
+          ],
+          "range_adc": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}
