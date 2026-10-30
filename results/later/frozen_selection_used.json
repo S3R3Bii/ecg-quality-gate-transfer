@@ -1,0 +1,20 @@
+{
+  "phase": "later",
+  "selected": {
+    "candidate": "accept_all",
+    "quantile": null,
+    "B_threshold": null,
+    "H_threshold": null
+  },
+  "calibrated_record": "118",
+  "evaluated_record": "119",
+  "recalibrated": false,
+  "evaluated_candidates": [
+    "accept_all",
+    "q090",
+    "q095",
+    "q099"
+  ],
+  "secondary_audit": "All three rejected development candidates are descriptive checks fixed in DEVELOPMENT.md before recording119 features; none is reselected",
+  "frozen_selection_sha256": "dd848bbd252069e84d21c9d9f04adafb3849a8cd51358f477f0ad962c9cd7f01"
+}

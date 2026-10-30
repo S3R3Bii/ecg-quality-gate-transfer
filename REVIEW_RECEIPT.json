@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T20:18:54.050424+00:00",
-  "version": "Development candidate before recording119 feature output",
-  "status": "INCOMPLETE_DEVELOPMENT_VERIFIED_LATER_PENDING",
+  "timestamp_utc": "2026-10-30T20:20:23.326769+00:00",
+  "version": "Frozen separate-recording analysis; figures, manuscript and clone replay pending",
+  "status": "INCOMPLETE_NUMERICAL_PASS_ARTIFACTS_PENDING",
   "grade": 3,
   "criteria": {
     "source": {
@@ -10,28 +10,29 @@
       "evidence": "37 preserved files, publisher SHA256 matches, all 18,200,000 digital/physical values independently reconciled; 8,812,800 clean-interval cells and native metadata checks; no raw headers or waveforms public"
     },
     "separation": {
-      "state": "pass_at_this_checkpoint",
-      "evidence": "No recording119 feature or performance output; no threshold selected"
+      "state": "pass",
+      "grade": 4,
+      "evidence": "36 dependencies committed at f1967bdb05e02aa677d47bfd0bc187dc94f3f23f before recording119 feature output. Original-source qualification exposure explicit. No later reselection; secondary all-candidate diagnostic fixed in DEVELOPMENT.md before later features."
     },
     "numerical_analysis": {
-      "state": "pass_development_only",
+      "state": "pass",
       "grade": 4,
-      "evidence": "648 development feature rows/3,888 values; 10,391 independent raw-feature/SQL conditions; 7,416 predictions/45,028 independent arithmetic and key conditions; 27 finite fixture methods; separate-path projection plus five deterministic exports identical"
+      "evidence": "1,296 feature rows; 3,888 numerical values and 10,391 independent raw-feature/SQL conditions per recording; 7,416 predictions per recording; 45,028 development and 45,029 later independent metric/key conditions; all planned transformations and negative findings retained"
     },
     "figures_manuscript_replay_release": {
       "state": "unknown"
     },
     "selection": {
-      "state": "pass_development_only",
+      "state": "pass",
       "grade": 4,
-      "evidence": "All three candidates fail the fixed clean-window constraint; accept-all fallback retained. Secondary all-candidate later diagnostic declared after development and before later features, without reselection."
+      "evidence": "All three development gates violate 5% clean-window constraint; accept-all selected. Rejected candidates also reject 14-22% of later source-clean windows; no retroactive eligibility or deployment claim."
     }
   },
   "failures_retained": [
     "Original absolute-voltage clean-interval assertion; corrected against documented NST segment offsets before features"
   ],
   "budget": {
-    "substantive_review_round": 1,
+    "substantive_review_round": 2,
     "maximum_rounds": 3,
     "active_review_limit_minutes": 45,
     "review_tool_call_limit": 60,
@@ -40,7 +41,7 @@
   },
   "usage": {
     "source": "Codex get_usage_limits",
-    "observed_utc": "2026-10-30T20:11:46Z",
+    "observed_utc": "2026-10-30T20:18:54Z",
     "window_minutes": 10080,
     "used_percent": 48,
     "remaining_percent": 52,
