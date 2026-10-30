@@ -1,8 +1,8 @@
 {
-  "timestamp_utc": "2026-10-30T20:25:32.655111+00:00",
-  "version": "Complete reviewed local artifact; full clone replay and exact remote release pending",
-  "status": "LOCAL_ARTIFACT_PASS_REPLAY_PENDING",
-  "grade": 3,
+  "timestamp_utc": "2026-10-30T20:26:32.740526+00:00",
+  "version": "Local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "grade": 4,
   "criteria": {
     "source": {
       "state": "pass",
@@ -30,12 +30,9 @@
       "evidence": "Three final figures inspected; 765 source values, 1572 coordinates and nine hashes; 83 source-bound displays; all six pages inspected; no final TeX layout/glyph warning"
     },
     "replay": {
-      "state": "unknown",
-      "evidence": "Complete committed candidate must replay in full-history clone"
-    },
-    "remote_release": {
-      "state": "unknown",
-      "evidence": "Exact candidate/main CI, tested-tree identity and annotated remote tag pending"
+      "state": "pass",
+      "grade": 4,
+      "evidence": "CPython 3.10.11 and 3.12.14: identical 135,564 CSV fields and four JSON documents; 27 finite fixture methods, 36 frozen dependencies and original bytes unchanged; full-history clone, no source network, two authored CLI examples. This replays public derived features, without raw-waveform re-extraction."
     }
   },
   "failures_retained": [
@@ -68,5 +65,20 @@
     "paper/images/clean_window_rejections.pdf": "dd37da0037614e3e10196f26f9240bf6af1ea5217406fad218adb60c7603679b",
     "paper/images/noise_detection_tradeoff.pdf": "cd1bfeea62819a38c16921bffe61d1859a2e8635bd05f43e6db036c4f6484d7b",
     "paper/images/source_clean_feature_drift.pdf": "6cd4ead823f951b7b3fbd53edcc4b3da1bc049420d0029f9412ba7993b12ffdb"
+  },
+  "scope": "Local specified artifact acceptance; release additionally requires exact candidate/main CI, matching tested content and remote annotated tag",
+  "gates": {
+    "source_rights": "pass",
+    "source_identity": "pass",
+    "scientific_qualifications": "pass",
+    "separation_and_selection": "pass",
+    "privacy": "pass_bounded_canonical_scan",
+    "replay": "pass",
+    "figures_and_manuscript": "pass"
+  },
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/pull/2",
+    "note": "This local receipt does not claim remote release completion; final proof is recorded by the program register and pull request."
   }
 }

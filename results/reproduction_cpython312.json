@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "csv_fields_compared": 135564,
+  "json_documents_compared": 4,
+  "fixtures": 27,
+  "frozen_dependencies": 36,
+  "source_network": false,
+  "original_files_unchanged": true,
+  "full_history_clone": true,
+  "cli_examples": 2,
+  "raw_waveforms_reextracted": false,
+  "replay_executions": {
+    "development": {
+      "phase": "development",
+      "timestamp_utc": "2026-10-30T20:25:58.888017+00:00",
+      "python": "3.12.14",
+      "candidates": [
+        {
+          "candidate": "accept_all",
+          "status": "PASS",
+          "wall_seconds": 0.004054700024425983,
+          "seed": "not_applicable_no_randomness"
+        },
+        {
+          "candidate": "q090",
+          "status": "PASS",
+          "wall_seconds": 0.005005599930882454,
+          "seed": "not_applicable_no_randomness"
+        },
+        {
+          "candidate": "q095",
+          "status": "PASS",
+          "wall_seconds": 0.005292000016197562,
+          "seed": "not_applicable_no_randomness"
+        },
+        {
+          "candidate": "q099",
+          "status": "PASS",
+          "wall_seconds": 0.005955300061032176,
+          "seed": "not_applicable_no_randomness"
+        }
+      ],
+      "source_network": false,
+      "input_sha256": "168df1178bb8b1c7d024cb240f3ef68bdb57f69ef145e513711ad0bab569428e",
+      "limitation": "Runtime is an execution observation, not a deterministic replay target or benchmark claim"
+    },
+    "later": {
+      "phase": "later",
+      "timestamp_utc": "2026-10-30T20:26:00.666577+00:00",
+      "python": "3.12.14",
+      "candidates": [
+        {
+          "candidate": "accept_all",
+          "status": "PASS",
+          "wall_seconds": 0.004134500049985945,
+          "seed": "not_applicable_no_randomness"
+        },
+        {
+          "candidate": "q090",
+          "status": "PASS",
+          "wall_seconds": 0.005133999977260828,
+          "seed": "not_applicable_no_randomness"
+        },
+        {
+          "candidate": "q095",
+          "status": "PASS",
+          "wall_seconds": 0.005512299947440624,
+          "seed": "not_applicable_no_randomness"
+        },
+        {
+          "candidate": "q099",
+          "status": "PASS",
+          "wall_seconds": 0.00619460002053529,
+          "seed": "not_applicable_no_randomness"
+        }
+      ],
+      "source_network": false,
+      "input_sha256": "9dab767b5e09db42e399826db3d2e4f15c415ebccccd21dd395d63f1ffc6c0a9",
+      "limitation": "Runtime is an execution observation, not a deterministic replay target or benchmark claim"
+    }
+  }
+}
