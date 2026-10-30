@@ -1,0 +1,240 @@
+[
+  {
+    "dataset": "mitdb",
+    "version": "1.0.0",
+    "record": "118",
+    "name": "118.hea",
+    "url": "https://physionet.org/files/mitdb/1.0.0/118.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "mitdb",
+    "version": "1.0.0",
+    "record": "118",
+    "name": "118.dat",
+    "url": "https://physionet.org/files/mitdb/1.0.0/118.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "mitdb",
+    "version": "1.0.0",
+    "record": "119",
+    "name": "119.hea",
+    "url": "https://physionet.org/files/mitdb/1.0.0/119.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "mitdb",
+    "version": "1.0.0",
+    "record": "119",
+    "name": "119.dat",
+    "url": "https://physionet.org/files/mitdb/1.0.0/119.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "mitdb",
+    "version": "1.0.0",
+    "name": "SHA256SUMS.txt",
+    "url": "https://physionet.org/files/mitdb/1.0.0/SHA256SUMS.txt",
+    "role": "published integrity inventory"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e24",
+    "name": "118e24.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e24.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e24",
+    "name": "118e24.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e24.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e18",
+    "name": "118e18.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e18.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e18",
+    "name": "118e18.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e18.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e12",
+    "name": "118e12.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e12.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e12",
+    "name": "118e12.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e12.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e06",
+    "name": "118e06.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e06.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e06",
+    "name": "118e06.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e06.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e00",
+    "name": "118e00.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e00.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e00",
+    "name": "118e00.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e00.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e_6",
+    "name": "118e_6.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e_6.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "118e_6",
+    "name": "118e_6.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/118e_6.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e24",
+    "name": "119e24.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e24.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e24",
+    "name": "119e24.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e24.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e18",
+    "name": "119e18.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e18.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e18",
+    "name": "119e18.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e18.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e12",
+    "name": "119e12.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e12.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e12",
+    "name": "119e12.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e12.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e06",
+    "name": "119e06.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e06.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e06",
+    "name": "119e06.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e06.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e00",
+    "name": "119e00.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e00.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e00",
+    "name": "119e00.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e00.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e_6",
+    "name": "119e_6.hea",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e_6.hea",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "record": "119e_6",
+    "name": "119e_6.dat",
+    "url": "https://physionet.org/files/nstdb/1.0.0/119e_6.dat",
+    "role": "fixed source waveform or header; original remains private"
+  },
+  {
+    "dataset": "nstdb",
+    "version": "1.0.0",
+    "name": "SHA256SUMS.txt",
+    "url": "https://physionet.org/files/nstdb/1.0.0/SHA256SUMS.txt",
+    "role": "published integrity inventory"
+  }
+]
