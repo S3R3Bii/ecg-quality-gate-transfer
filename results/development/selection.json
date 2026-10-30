@@ -1,0 +1,43 @@
+{
+  "phase": "development",
+  "calibration_record": "118",
+  "calibration_windows": 30,
+  "validation_record": "118",
+  "source_clean_validation_windows": 150,
+  "lower_snr_positive_windows": 234,
+  "candidates": [
+    {
+      "candidate": "accept_all",
+      "quantile": null,
+      "B_threshold": null,
+      "H_threshold": null
+    },
+    {
+      "candidate": "q090",
+      "quantile": 0.9,
+      "B_threshold": 0.10928400387644986,
+      "H_threshold": 0.030672812356577227
+    },
+    {
+      "candidate": "q095",
+      "quantile": 0.95,
+      "B_threshold": 0.1232948976831534,
+      "H_threshold": 0.03151718128240173
+    },
+    {
+      "candidate": "q099",
+      "quantile": 0.99,
+      "B_threshold": 0.2170404093539576,
+      "H_threshold": 0.031775528075707264
+    }
+  ],
+  "selected": {
+    "candidate": "accept_all",
+    "quantile": null,
+    "B_threshold": null,
+    "H_threshold": null
+  },
+  "objective": "false rejection <=0.05; maximum lower-SNR true positives; ties prefer larger quantile; accept-all fallback",
+  "search_complete": true,
+  "boundary_winner": false
+}

@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T20:13:41.051793+00:00",
-  "version": "Source-qualified checkpoint before features",
-  "status": "INCOMPLETE_SOURCE_PASS_ANALYSIS_PENDING",
+  "timestamp_utc": "2026-10-30T20:18:54.050424+00:00",
+  "version": "Development candidate before recording119 feature output",
+  "status": "INCOMPLETE_DEVELOPMENT_VERIFIED_LATER_PENDING",
   "grade": 3,
   "criteria": {
     "source": {
@@ -14,10 +14,17 @@
       "evidence": "No recording119 feature or performance output; no threshold selected"
     },
     "numerical_analysis": {
-      "state": "unknown"
+      "state": "pass_development_only",
+      "grade": 4,
+      "evidence": "648 development feature rows/3,888 values; 10,391 independent raw-feature/SQL conditions; 7,416 predictions/45,028 independent arithmetic and key conditions; 27 finite fixture methods; separate-path projection plus five deterministic exports identical"
     },
     "figures_manuscript_replay_release": {
       "state": "unknown"
+    },
+    "selection": {
+      "state": "pass_development_only",
+      "grade": 4,
+      "evidence": "All three candidates fail the fixed clean-window constraint; accept-all fallback retained. Secondary all-candidate later diagnostic declared after development and before later features, without reselection."
     }
   },
   "failures_retained": [

@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-30T20:18:54.050424+00:00",
+  "status": "PASS_CURRENT_DEVELOPMENT_REPLAY_AND_FIXTURES",
+  "fixtures": 27,
+  "failures": 0,
+  "errors": 0,
+  "feature_projection_identical": true,
+  "deterministic_exports_compared": [
+    "predictions.csv",
+    "metrics.csv",
+    "strata.csv",
+    "sensitivity.csv",
+    "selection.json"
+  ],
+  "all_identical": true,
+  "source_network": false,
+  "source_feature_verification": "data/features_development_verification.json",
+  "independent_metric_verification": "results/development/verification.json",
+  "original119_features_computed": false,
+  "limits": "Finite numerical/guard tests; no clinical or device validation. First development invocation runtime unavailable, as EXECUTION_NOTES.md records."
+}

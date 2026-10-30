@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_THRESHOLDS_METRICS_AND_SQL",
+  "phase": "development",
+  "input_rows": 648,
+  "predictions_checked": 7416,
+  "conditions_checked": 45028,
+  "selection": "accept_all",
+  "candidate_metrics": 12,
+  "noise_clean_strata": 84,
+  "sensitivity_groups": 56,
+  "input_sha256": "168df1178bb8b1c7d024cb240f3ef68bdb57f69ef145e513711ad0bab569428e",
+  "output_sha256": {
+    "predictions.csv": "fd226ed3565ad5c430acbd5d1629fba5d3264249c5c129e79996ecdb0344c573",
+    "metrics.csv": "1acd2b6f941869581bd8a790e2870a98bb9f467c69cbd1840dd8601aede52171",
+    "strata.csv": "2e3f68b4c42d4919e8c6feb1db4f5c65ead69da414deddd9f5b6ac044ad86e7a",
+    "sensitivity.csv": "b2ab86e2bc12b4f7508d7be034b1b26b836f625756072fb2bd3fb6d5bee7845c"
+  },
+  "no_analysis_helper_import": true,
+  "population_inference": "unavailable_one_later_source_recording"
+}

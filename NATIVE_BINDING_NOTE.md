@@ -1,6 +1,6 @@
 # Bind the source generator's clean-segment offsets before features
 
-The original absolute-value clean-interval check failed on 118e24 before any features, threshold selection or recording119 performance output. All downloaded files still match the publisher SHA-256 inventory, and independent WFDB decoding agrees with the native decoder. Diagnostic comparisons found a constant offset within each inspected source-clean segment, with different offsets across segments. The original failed checker and diagnostic are retained privately; the committed original protocol remains in history.
+The original absolute-value clean-interval check failed on 118e24 before any features, threshold selection or recording 119 performance output. All downloaded files still match the publisher SHA-256 inventory, and independent WFDB decoding agrees with the native decoder. Diagnostic comparisons found a constant offset within each inspected source-clean segment, with different offsets across segments. The original failed checker and diagnostic are retained privately; the committed original protocol remains in history.
 
 The publisher's [NST output-generation documentation](https://physionet.org/physiotools/wag/nst-1.htm) specifies an additive offset that is recomputed at noise transitions to cancel step changes and stays fixed between transitions. A clean interval therefore need not have the original absolute voltage. The initial native zero/baseline fields are also retained exactly, without rewriting their interpretation to force agreement.
 

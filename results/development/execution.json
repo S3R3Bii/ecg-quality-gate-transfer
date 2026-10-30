@@ -1,0 +1,34 @@
+{
+  "phase": "development",
+  "timestamp_utc": "2026-10-30T20:16:22.084824+00:00",
+  "python": "3.10.11",
+  "candidates": [
+    {
+      "candidate": "accept_all",
+      "status": "PASS",
+      "wall_seconds": 0.004338499973528087,
+      "seed": "not_applicable_no_randomness"
+    },
+    {
+      "candidate": "q090",
+      "status": "PASS",
+      "wall_seconds": 0.005080800037831068,
+      "seed": "not_applicable_no_randomness"
+    },
+    {
+      "candidate": "q095",
+      "status": "PASS",
+      "wall_seconds": 0.005943899974226952,
+      "seed": "not_applicable_no_randomness"
+    },
+    {
+      "candidate": "q099",
+      "status": "PASS",
+      "wall_seconds": 0.006828200072050095,
+      "seed": "not_applicable_no_randomness"
+    }
+  ],
+  "source_network": false,
+  "input_sha256": "168df1178bb8b1c7d024cb240f3ef68bdb57f69ef145e513711ad0bab569428e",
+  "limitation": "Runtime is an execution observation, not a deterministic replay target or benchmark claim"
+}
