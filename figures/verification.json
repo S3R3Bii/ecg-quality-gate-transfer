@@ -1,0 +1,7 @@
+{
+  "status": "PASS_SOURCE_VALUES_AND_ACTUAL_SVG_GEOMETRY",
+  "figures": 3,
+  "value_checks": 765,
+  "coordinate_checks": 1572,
+  "export_hash_checks": 9
+}

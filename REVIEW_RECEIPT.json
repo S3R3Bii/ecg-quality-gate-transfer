@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T20:20:23.326769+00:00",
-  "version": "Frozen separate-recording analysis; figures, manuscript and clone replay pending",
-  "status": "INCOMPLETE_NUMERICAL_PASS_ARTIFACTS_PENDING",
+  "timestamp_utc": "2026-10-30T20:25:32.655111+00:00",
+  "version": "Complete reviewed local artifact; full clone replay and exact remote release pending",
+  "status": "LOCAL_ARTIFACT_PASS_REPLAY_PENDING",
   "grade": 3,
   "criteria": {
     "source": {
@@ -19,17 +19,30 @@
       "grade": 4,
       "evidence": "1,296 feature rows; 3,888 numerical values and 10,391 independent raw-feature/SQL conditions per recording; 7,416 predictions per recording; 45,028 development and 45,029 later independent metric/key conditions; all planned transformations and negative findings retained"
     },
-    "figures_manuscript_replay_release": {
-      "state": "unknown"
-    },
     "selection": {
       "state": "pass",
       "grade": 4,
       "evidence": "All three development gates violate 5% clean-window constraint; accept-all selected. Rejected candidates also reject 14-22% of later source-clean windows; no retroactive eligibility or deployment claim."
+    },
+    "figures_and_paper": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three final figures inspected; 765 source values, 1572 coordinates and nine hashes; 83 source-bound displays; all six pages inspected; no final TeX layout/glyph warning"
+    },
+    "replay": {
+      "state": "unknown",
+      "evidence": "Complete committed candidate must replay in full-history clone"
+    },
+    "remote_release": {
+      "state": "unknown",
+      "evidence": "Exact candidate/main CI, tested-tree identity and annotated remote tag pending"
     }
   },
   "failures_retained": [
-    "Original absolute-voltage clean-interval assertion; corrected against documented NST segment offsets before features"
+    "Original absolute-voltage clean-interval assertion; corrected against documented NST segment offsets before features",
+    "First test run CSV handle ResourceWarnings, fixed before pre-freeze pass",
+    "Round2 figure label/annotation overlap; original files/receipt retained, numerical values unchanged",
+    "Initial compile directory error before output; corrected compile passed"
   ],
   "budget": {
     "substantive_review_round": 2,
@@ -41,12 +54,19 @@
   },
   "usage": {
     "source": "Codex get_usage_limits",
-    "observed_utc": "2026-10-30T20:18:54Z",
+    "observed_utc": "2026-10-30T20:24:07Z",
     "window_minutes": 10080,
     "used_percent": 48,
     "remaining_percent": 52,
     "reset_unix": 1793910839,
     "secondary": "unavailable",
     "shared_account_not_task_consumption": true
+  },
+  "reviewed_files_sha256": {
+    "paper/main.tex": "b0a167600e22a41a1f959adefead225df745bbf7d483ec407457467502cdd4fd",
+    "paper/manuscript.pdf": "905197a5d89c5f10f4e11672be3bf24b673a62d77cf883904198c32c94be9d62",
+    "paper/images/clean_window_rejections.pdf": "dd37da0037614e3e10196f26f9240bf6af1ea5217406fad218adb60c7603679b",
+    "paper/images/noise_detection_tradeoff.pdf": "cd1bfeea62819a38c16921bffe61d1859a2e8635bd05f43e6db036c4f6484d7b",
+    "paper/images/source_clean_feature_drift.pdf": "6cd4ead823f951b7b3fbd53edcc4b3da1bc049420d0029f9412ba7993b12ffdb"
   }
 }
