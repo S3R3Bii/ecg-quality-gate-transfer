@@ -1,0 +1,84 @@
+{
+  "timestamp_utc": "2026-10-30T20:26:32.740526+00:00",
+  "version": "Local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "grade": 4,
+  "criteria": {
+    "source": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "37 preserved files, publisher SHA256 matches, all 18,200,000 digital/physical values independently reconciled; 8,812,800 clean-interval cells and native metadata checks; no raw headers or waveforms public"
+    },
+    "separation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "36 dependencies committed at f1967bdb05e02aa677d47bfd0bc187dc94f3f23f before recording119 feature output. Original-source qualification exposure explicit. No later reselection; secondary all-candidate diagnostic fixed in DEVELOPMENT.md before later features."
+    },
+    "numerical_analysis": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "1,296 feature rows; 3,888 numerical values and 10,391 independent raw-feature/SQL conditions per recording; 7,416 predictions per recording; 45,028 development and 45,029 later independent metric/key conditions; all planned transformations and negative findings retained"
+    },
+    "selection": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "All three development gates violate 5% clean-window constraint; accept-all selected. Rejected candidates also reject 14-22% of later source-clean windows; no retroactive eligibility or deployment claim."
+    },
+    "figures_and_paper": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three final figures inspected; 765 source values, 1572 coordinates and nine hashes; 83 source-bound displays; all six pages inspected; no final TeX layout/glyph warning"
+    },
+    "replay": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "CPython 3.10.11 and 3.12.14: identical 135,564 CSV fields and four JSON documents; 27 finite fixture methods, 36 frozen dependencies and original bytes unchanged; full-history clone, no source network, two authored CLI examples. This replays public derived features, without raw-waveform re-extraction."
+    }
+  },
+  "failures_retained": [
+    "Original absolute-voltage clean-interval assertion; corrected against documented NST segment offsets before features",
+    "First test run CSV handle ResourceWarnings, fixed before pre-freeze pass",
+    "Round2 figure label/annotation overlap; original files/receipt retained, numerical values unchanged",
+    "Initial compile directory error before output; corrected compile passed"
+  ],
+  "budget": {
+    "substantive_review_round": 2,
+    "maximum_rounds": 3,
+    "active_review_limit_minutes": 45,
+    "review_tool_call_limit": 60,
+    "exact_review_calls": "Not fully instrumented; actual commands/results retained",
+    "active_review_time": "Not separately timed; acquisition/execution separate from review"
+  },
+  "usage": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-30T20:24:07Z",
+    "window_minutes": 10080,
+    "used_percent": 48,
+    "remaining_percent": 52,
+    "reset_unix": 1793910839,
+    "secondary": "unavailable",
+    "shared_account_not_task_consumption": true
+  },
+  "reviewed_files_sha256": {
+    "paper/main.tex": "b0a167600e22a41a1f959adefead225df745bbf7d483ec407457467502cdd4fd",
+    "paper/manuscript.pdf": "905197a5d89c5f10f4e11672be3bf24b673a62d77cf883904198c32c94be9d62",
+    "paper/images/clean_window_rejections.pdf": "dd37da0037614e3e10196f26f9240bf6af1ea5217406fad218adb60c7603679b",
+    "paper/images/noise_detection_tradeoff.pdf": "cd1bfeea62819a38c16921bffe61d1859a2e8635bd05f43e6db036c4f6484d7b",
+    "paper/images/source_clean_feature_drift.pdf": "6cd4ead823f951b7b3fbd53edcc4b3da1bc049420d0029f9412ba7993b12ffdb"
+  },
+  "scope": "Local specified artifact acceptance; release additionally requires exact candidate/main CI, matching tested content and remote annotated tag",
+  "gates": {
+    "source_rights": "pass",
+    "source_identity": "pass",
+    "scientific_qualifications": "pass",
+    "separation_and_selection": "pass",
+    "privacy": "pass_bounded_canonical_scan",
+    "replay": "pass",
+    "figures_and_manuscript": "pass"
+  },
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/pull/2",
+    "note": "This local receipt does not claim remote release completion; final proof is recorded by the program register and pull request."
+  }
+}

@@ -1,0 +1,973 @@
+[
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "fp"
+    },
+    "text": "58",
+    "page": 0,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "negatives"
+    },
+    "text": "150",
+    "page": 0,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "false_rejection_rate"
+    },
+    "text": "38.7",
+    "page": 0,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "false_rejection_rate"
+    },
+    "text": "52.0",
+    "page": 0,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "fp"
+    },
+    "text": "21",
+    "page": 0,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "negatives"
+    },
+    "text": "150",
+    "page": 0,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "false_rejection_rate"
+    },
+    "text": "14.0",
+    "page": 0,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "false_rejection_rate"
+    },
+    "text": "22.0",
+    "page": 0,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "data/original_verification.json",
+      "key": "records"
+    },
+    "text": "14",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "data/source_receipts.json",
+      "key": "files"
+    },
+    "text": "37",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "data/original_verification.json",
+      "key": "digital_samples_compared"
+    },
+    "text": "18,200,000",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "data/original_verification.json",
+      "key": "clean_interval_cells_checked"
+    },
+    "text": "8,812,800",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "input_count",
+      "phase": "development",
+      "group": "all"
+    },
+    "text": "648",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "input_count",
+      "phase": "development",
+      "group": "clean"
+    },
+    "text": "180",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "input_count",
+      "phase": "development",
+      "group": "calibration"
+    },
+    "text": "30",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "input_count",
+      "phase": "development",
+      "group": "controls"
+    },
+    "text": "150",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "input_count",
+      "phase": "development",
+      "group": "one_noise_level"
+    },
+    "text": "78",
+    "page": 1,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "tp"
+    },
+    "text": "206",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "fn"
+    },
+    "text": "28",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "fp"
+    },
+    "text": "78",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "tn"
+    },
+    "text": "72",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "precision"
+    },
+    "text": "72.5",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "recall"
+    },
+    "text": "88.0",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q090",
+      "field": "false_rejection_rate"
+    },
+    "text": "52.0",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "tp"
+    },
+    "text": "202",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "fn"
+    },
+    "text": "32",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "fp"
+    },
+    "text": "68",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "tn"
+    },
+    "text": "82",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "precision"
+    },
+    "text": "74.8",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "recall"
+    },
+    "text": "86.3",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q095",
+      "field": "false_rejection_rate"
+    },
+    "text": "45.3",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "tp"
+    },
+    "text": "176",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "fn"
+    },
+    "text": "58",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "fp"
+    },
+    "text": "58",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "tn"
+    },
+    "text": "92",
+    "page": 2,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "precision"
+    },
+    "text": "75.2",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "recall"
+    },
+    "text": "75.2",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "development",
+      "candidate": "q099",
+      "field": "false_rejection_rate"
+    },
+    "text": "38.7",
+    "page": 2,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "tp"
+    },
+    "text": "205",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "fn"
+    },
+    "text": "29",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "fp"
+    },
+    "text": "33",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "tn"
+    },
+    "text": "117",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "precision"
+    },
+    "text": "86.1",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "recall"
+    },
+    "text": "87.6",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q090",
+      "field": "false_rejection_rate"
+    },
+    "text": "22.0",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "tp"
+    },
+    "text": "202",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "fn"
+    },
+    "text": "32",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "fp"
+    },
+    "text": "28",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "tn"
+    },
+    "text": "122",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "precision"
+    },
+    "text": "87.8",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "recall"
+    },
+    "text": "86.3",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q095",
+      "field": "false_rejection_rate"
+    },
+    "text": "18.7",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "tp"
+    },
+    "text": "169",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "fn"
+    },
+    "text": "65",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "fp"
+    },
+    "text": "21",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "tn"
+    },
+    "text": "129",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "precision"
+    },
+    "text": "88.9",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "recall"
+    },
+    "text": "72.2",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "q099",
+      "field": "false_rejection_rate"
+    },
+    "text": "14.0",
+    "page": 3,
+    "format": ".1f",
+    "multiplier": 100
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "accept_all",
+      "field": "tp"
+    },
+    "text": "0",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "accept_all",
+      "field": "fp"
+    },
+    "text": "0",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "accept_all",
+      "field": "fn"
+    },
+    "text": "234",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "metric",
+      "phase": "later",
+      "candidate": "accept_all",
+      "field": "tn"
+    },
+    "text": "150",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "results/development/verification.json",
+      "key": "conditions_checked"
+    },
+    "text": "45,028",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "results/later/verification.json",
+      "key": "conditions_checked"
+    },
+    "text": "45,029",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "data/features_later_verification.json",
+      "key": "conditions_checked"
+    },
+    "text": "10,391",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "results/development/prefreeze_check.json",
+      "key": "fixtures"
+    },
+    "text": "27",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "figures/verification.json",
+      "key": "value_checks"
+    },
+    "text": "765",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "figures/verification.json",
+      "key": "coordinate_checks"
+    },
+    "text": "1,572",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "json",
+      "path": "figures/verification.json",
+      "key": "export_hash_checks"
+    },
+    "text": "9",
+    "page": 5,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "freeze_count"
+    },
+    "text": "36",
+    "page": 3,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "threshold",
+      "candidate": "q090",
+      "field": "B_threshold"
+    },
+    "text": "0.109284",
+    "page": 2,
+    "format": ".6f",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "threshold",
+      "candidate": "q090",
+      "field": "H_threshold"
+    },
+    "text": "0.030673",
+    "page": 2,
+    "format": ".6f",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "threshold",
+      "candidate": "q095",
+      "field": "B_threshold"
+    },
+    "text": "0.123295",
+    "page": 2,
+    "format": ".6f",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "threshold",
+      "candidate": "q095",
+      "field": "H_threshold"
+    },
+    "text": "0.031517",
+    "page": 2,
+    "format": ".6f",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "threshold",
+      "candidate": "q099",
+      "field": "B_threshold"
+    },
+    "text": "0.217040",
+    "page": 2,
+    "format": ".6f",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "threshold",
+      "candidate": "q099",
+      "field": "H_threshold"
+    },
+    "text": "0.031776",
+    "page": 2,
+    "format": ".6f",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "flip_total",
+      "phase": "development",
+      "candidate": "q090",
+      "case": "quantized_002mV"
+    },
+    "text": "11",
+    "page": 4,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "flip_total",
+      "phase": "later",
+      "candidate": "q090",
+      "case": "quantized_002mV"
+    },
+    "text": "4",
+    "page": 4,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "flip_total",
+      "phase": "development",
+      "candidate": "q095",
+      "case": "quantized_002mV"
+    },
+    "text": "3",
+    "page": 4,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "flip_total",
+      "phase": "later",
+      "candidate": "q095",
+      "case": "quantized_002mV"
+    },
+    "text": "0",
+    "page": 4,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "flip_total",
+      "phase": "development",
+      "candidate": "q099",
+      "case": "quantized_002mV"
+    },
+    "text": "3",
+    "page": 4,
+    "format": ",d",
+    "multiplier": 1
+  },
+  {
+    "query": {
+      "kind": "flip_total",
+      "phase": "later",
+      "candidate": "q099",
+      "case": "quantized_002mV"
+    },
+    "text": "0",
+    "page": 4,
+    "format": ",d",
+    "multiplier": 1
+  }
+]

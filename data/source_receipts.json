@@ -1,0 +1,756 @@
+{
+  "status": "PASS_CAPTURE_AND_PUBLISHER_SHA256",
+  "bytes": 30255876,
+  "files": 37,
+  "source_files": 28,
+  "fixed_waveform_records": 14,
+  "protocol_commit": "eb150d019ace8bb7c08226c0282c515278e3025c",
+  "records": [
+    {
+      "dataset": "mitdb",
+      "version": "1.0.0",
+      "record": "118",
+      "name": "118.hea",
+      "url": "https://physionet.org/files/mitdb/1.0.0/118.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:10.306433+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet-open.s3.amazonaws.com/mitdb/1.0.0/118.hea",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "167",
+        "Last-Modified": "Wed, 29 Nov 2023 20:54:04 GMT",
+        "ETag": "\"83f9cd6d5aa0d92921b270e4bbfdcd67\""
+      },
+      "bytes": 167,
+      "sha256": "48a3d0c4e7742ca0e39a2cbb3ea5142a4d41261adbd0bb25651e0fcd9c6aef2b",
+      "completed_utc": "2026-10-30T20:10:11.045451+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "mitdb",
+      "version": "1.0.0",
+      "record": "118",
+      "name": "118.dat",
+      "url": "https://physionet.org/files/mitdb/1.0.0/118.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:11.195497+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet-open.s3.amazonaws.com/mitdb/1.0.0/118.dat",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Wed, 29 Nov 2023 20:54:02 GMT",
+        "ETag": "\"3448415e2cc186e280a7b34cb9287ad5\""
+      },
+      "bytes": 1950000,
+      "sha256": "66ea4b70b7d64abd0f49089ae1b8f0f577664c46e5b29ac23b291934e063df15",
+      "completed_utc": "2026-10-30T20:10:11.639970+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "mitdb",
+      "version": "1.0.0",
+      "record": "119",
+      "name": "119.hea",
+      "url": "https://physionet.org/files/mitdb/1.0.0/119.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:11.791656+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet-open.s3.amazonaws.com/mitdb/1.0.0/119.hea",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "158",
+        "Last-Modified": "Wed, 29 Nov 2023 20:52:55 GMT",
+        "ETag": "\"1ae3b1cafcbb6eb1943419f310a8ed8a\""
+      },
+      "bytes": 158,
+      "sha256": "658f01382d7280a06e2f4c06363569d477394a6898c69ee788bb383f6092df63",
+      "completed_utc": "2026-10-30T20:10:11.941274+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "mitdb",
+      "version": "1.0.0",
+      "record": "119",
+      "name": "119.dat",
+      "url": "https://physionet.org/files/mitdb/1.0.0/119.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:12.091598+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet-open.s3.amazonaws.com/mitdb/1.0.0/119.dat",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Wed, 29 Nov 2023 20:54:07 GMT",
+        "ETag": "\"229be04be2eb3401e863b35fc396ab76\""
+      },
+      "bytes": 1950000,
+      "sha256": "02a286a28e69b441568add915f16a2856b22bab893bf8729ee9654411ed3a5aa",
+      "completed_utc": "2026-10-30T20:10:12.317311+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "mitdb",
+      "version": "1.0.0",
+      "name": "SHA256SUMS.txt",
+      "url": "https://physionet.org/files/mitdb/1.0.0/SHA256SUMS.txt",
+      "role": "published integrity inventory",
+      "started_utc": "2026-10-30T20:10:12.467397+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/mitdb/1.0.0/SHA256SUMS.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "60849",
+        "Last-Modified": "Fri, 09 Aug 2019 17:42:01 GMT",
+        "ETag": "\"5d4db069-edb1\""
+      },
+      "bytes": 60849,
+      "sha256": "b61158a96d5f2ca80edfb354a9a66a6324836c390a84e1966dcee2b907d6be43",
+      "completed_utc": "2026-10-30T20:10:12.768079+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e24",
+      "name": "118e24.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e24.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:12.918370+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e24.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "176",
+        "Last-Modified": "Sun, 02 Aug 1992 08:03:00 GMT",
+        "ETag": "\"2a7b96b4-b0\""
+      },
+      "bytes": 176,
+      "sha256": "87773e0313f872a4e13ef3fe5a6ff314080fc843baa11d99f8218e5e413d1cee",
+      "completed_utc": "2026-10-30T20:10:12.990444+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e24",
+      "name": "118e24.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e24.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:13.142132+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e24.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:03:00 GMT",
+        "ETag": "\"2a7b96b4-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "fe313df01e72c7134cc1caee92394d02966569ac4ef6f5cc571a4cd70d94d78c",
+      "completed_utc": "2026-10-30T20:10:19.752538+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e18",
+      "name": "118e18.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e18.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:19.903671+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e18.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "175",
+        "Last-Modified": "Sun, 02 Aug 1992 08:03:40 GMT",
+        "ETag": "\"2a7b96dc-af\""
+      },
+      "bytes": 175,
+      "sha256": "8274159d47e8f4f57dccb0b2de015ff8927a9f6975563e3fb9703903fd5dea71",
+      "completed_utc": "2026-10-30T20:10:19.981183+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e18",
+      "name": "118e18.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e18.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:20.132913+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e18.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:03:38 GMT",
+        "ETag": "\"2a7b96da-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "d0e5b78460e1b2fbcd6ca7435fa64b102ce747d3fdc4685f6761f6cf79cac9d8",
+      "completed_utc": "2026-10-30T20:10:26.570786+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e12",
+      "name": "118e12.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e12.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:26.721818+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e12.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "177",
+        "Last-Modified": "Sun, 02 Aug 1992 08:04:16 GMT",
+        "ETag": "\"2a7b9700-b1\""
+      },
+      "bytes": 177,
+      "sha256": "3d4bb4b96d47a7b3900bf2207eefbe9f1e294901dcbddbb470ae190fb7f1b0b4",
+      "completed_utc": "2026-10-30T20:10:27.104958+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e12",
+      "name": "118e12.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e12.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:27.256360+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e12.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:04:16 GMT",
+        "ETag": "\"2a7b9700-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "7d25e59e68400aa40b435caed153b32f0333f2445f2f21d7409c612c0dc3761c",
+      "completed_utc": "2026-10-30T20:10:38.299590+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e06",
+      "name": "118e06.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e06.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:38.451150+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e06.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "175",
+        "Last-Modified": "Sun, 02 Aug 1992 08:04:56 GMT",
+        "ETag": "\"2a7b9728-af\""
+      },
+      "bytes": 175,
+      "sha256": "97a7042b0c23d63adab1106f7d47882e915c7c1db6e7ee2519367e3e55cb3b6f",
+      "completed_utc": "2026-10-30T20:10:38.528664+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e06",
+      "name": "118e06.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e06.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:38.679191+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e06.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:04:56 GMT",
+        "ETag": "\"2a7b9728-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "ac6848a54bcdb05a3bf8266cca7970d97f8575334ec6e28bdd88b6d24e568ff1",
+      "completed_utc": "2026-10-30T20:10:45.003105+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e00",
+      "name": "118e00.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e00.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:45.153161+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e00.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "173",
+        "Last-Modified": "Sun, 02 Aug 1992 08:05:32 GMT",
+        "ETag": "\"2a7b974c-ad\""
+      },
+      "bytes": 173,
+      "sha256": "9317736e3a91040d35a94e1ccb188ccea59f7f9dd2331b40df52fe9f19a79c45",
+      "completed_utc": "2026-10-30T20:10:45.238177+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e00",
+      "name": "118e00.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e00.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:45.389707+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e00.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "2600000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:05:32 GMT",
+        "ETag": "\"2a7b974c-27ac40\""
+      },
+      "bytes": 2600000,
+      "sha256": "e4174f9def17dff5a3520e14425b70a66b51c596b568bec52c193471f30c64d3",
+      "completed_utc": "2026-10-30T20:10:53.281095+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e_6",
+      "name": "118e_6.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e_6.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:53.432128+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e_6.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "172",
+        "Last-Modified": "Sun, 02 Aug 1992 08:06:08 GMT",
+        "ETag": "\"2a7b9770-ac\""
+      },
+      "bytes": 172,
+      "sha256": "f9c5fb86ecf3a8cd40d2b3f9f4b59d02afea3ea45eba3b448eed492aa1467ab4",
+      "completed_utc": "2026-10-30T20:10:53.499640+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "118e_6",
+      "name": "118e_6.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/118e_6.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:10:53.651270+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/118e_6.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "2600000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:06:08 GMT",
+        "ETag": "\"2a7b9770-27ac40\""
+      },
+      "bytes": 2600000,
+      "sha256": "6cd17f65bf51bec446cefd3daf6bea9b285d280298fc3abae7c3661a34cb442e",
+      "completed_utc": "2026-10-30T20:11:03.396539+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e24",
+      "name": "119e24.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e24.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:03.548313+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e24.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "175",
+        "Last-Modified": "Sun, 02 Aug 1992 08:06:52 GMT",
+        "ETag": "\"2a7b979c-af\""
+      },
+      "bytes": 175,
+      "sha256": "a9be0c0f0daa1faf46364aaa8d8ffbe6d56ca7dd4572ef810409ceb98e5548fc",
+      "completed_utc": "2026-10-30T20:11:03.628821+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e24",
+      "name": "119e24.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e24.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:03.779957+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e24.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:06:52 GMT",
+        "ETag": "\"2a7b979c-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "affba7ddda1f1f86b2fb79449e8c79ff9b674a3b480b5ab12139c7c435941acb",
+      "completed_utc": "2026-10-30T20:11:09.817891+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e18",
+      "name": "119e18.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e18.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:09.969133+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e18.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "175",
+        "Last-Modified": "Sun, 02 Aug 1992 08:07:30 GMT",
+        "ETag": "\"2a7b97c2-af\""
+      },
+      "bytes": 175,
+      "sha256": "50607b7b8f60487964832bc2b607d6203cd3e37487b07391be275adc0928b862",
+      "completed_utc": "2026-10-30T20:11:10.053694+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e18",
+      "name": "119e18.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e18.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:10.203711+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e18.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:07:30 GMT",
+        "ETag": "\"2a7b97c2-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "0d879b564d94bfbf7f8f57e2fe3adb5e2d9f58210aa22c9e16b68b2e112d8129",
+      "completed_utc": "2026-10-30T20:11:17.212199+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e12",
+      "name": "119e12.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e12.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:17.363734+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e12.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "174",
+        "Last-Modified": "Sun, 02 Aug 1992 08:08:08 GMT",
+        "ETag": "\"2a7b97e8-ae\""
+      },
+      "bytes": 174,
+      "sha256": "6497aa15b9ee502cf832501a2272a09e74d71afecac322f8fc7ef8b43e9769a0",
+      "completed_utc": "2026-10-30T20:11:17.433242+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e12",
+      "name": "119e12.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e12.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:17.583298+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e12.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:08:08 GMT",
+        "ETag": "\"2a7b97e8-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "d0aa322b0d5e8ea56d5245ce6660fd9effc6a170b1772c08493438a51c08465c",
+      "completed_utc": "2026-10-30T20:11:24.706668+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e06",
+      "name": "119e06.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e06.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:24.858219+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e06.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "175",
+        "Last-Modified": "Sun, 02 Aug 1992 08:08:44 GMT",
+        "ETag": "\"2a7b980c-af\""
+      },
+      "bytes": 175,
+      "sha256": "91536e9f794ea4a947e05bcea761fff8b4f444be2a11920f36f49d44eff5d30d",
+      "completed_utc": "2026-10-30T20:11:24.929735+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e06",
+      "name": "119e06.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e06.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:25.080257+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e06.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1950000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:08:44 GMT",
+        "ETag": "\"2a7b980c-1dc130\""
+      },
+      "bytes": 1950000,
+      "sha256": "08866e9afb2dc7e0dbcca61044b3da60d1361983f12a7155d77461a0639f0319",
+      "completed_utc": "2026-10-30T20:11:31.916811+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e00",
+      "name": "119e00.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e00.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:32.067952+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e00.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "170",
+        "Last-Modified": "Sun, 02 Aug 1992 08:09:22 GMT",
+        "ETag": "\"2a7b9832-aa\""
+      },
+      "bytes": 170,
+      "sha256": "e2957931f2e0a356f3c1e7dae1bc24795a4a574f86535c0c16ccdc2e3323f98d",
+      "completed_utc": "2026-10-30T20:11:32.143915+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e00",
+      "name": "119e00.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e00.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:32.294819+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e00.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "2600000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:09:20 GMT",
+        "ETag": "\"2a7b9830-27ac40\""
+      },
+      "bytes": 2600000,
+      "sha256": "776efbffe8a4f3ec2dc86d4cd0c82c2fc659c911412df4b1581d9dd09430d720",
+      "completed_utc": "2026-10-30T20:11:39.370126+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e_6",
+      "name": "119e_6.hea",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e_6.hea",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:39.521658+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e_6.hea",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "171",
+        "Last-Modified": "Sun, 02 Aug 1992 08:10:02 GMT",
+        "ETag": "\"2a7b985a-ab\""
+      },
+      "bytes": 171,
+      "sha256": "15e07dc4bbc56920d4584e5fb338f816e492774be6d4c71e82c6938c3aa331c2",
+      "completed_utc": "2026-10-30T20:11:39.597685+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "record": "119e_6",
+      "name": "119e_6.dat",
+      "url": "https://physionet.org/files/nstdb/1.0.0/119e_6.dat",
+      "role": "fixed source waveform or header; original remains private",
+      "started_utc": "2026-10-30T20:11:39.748715+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/119e_6.dat",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "2600000",
+        "Last-Modified": "Sun, 02 Aug 1992 08:10:02 GMT",
+        "ETag": "\"2a7b985a-27ac40\""
+      },
+      "bytes": 2600000,
+      "sha256": "e01f43c58c57d15519707b60e5d5d59e115d85894c8418c9054758bb21dc399b",
+      "completed_utc": "2026-10-30T20:11:46.955976+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "version": "1.0.0",
+      "name": "SHA256SUMS.txt",
+      "url": "https://physionet.org/files/nstdb/1.0.0/SHA256SUMS.txt",
+      "role": "published integrity inventory",
+      "started_utc": "2026-10-30T20:11:47.106213+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/files/nstdb/1.0.0/SHA256SUMS.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "7439",
+        "Last-Modified": "Wed, 20 Feb 2019 21:45:39 GMT",
+        "ETag": "\"5c6dca83-1d0f\""
+      },
+      "bytes": 7439,
+      "sha256": "b76bd98c5111439fcfff2f410afd70d64e79f072049c45b5a9916a3044fdb84f",
+      "completed_utc": "2026-10-30T20:11:47.190232+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "name": "description.html",
+      "url": "https://physionet.org/content/nstdb/1.0.0/",
+      "role": "private metadata/rights evidence",
+      "started_utc": "2026-10-30T20:11:47.340743+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/content/nstdb/1.0.0/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8"
+      },
+      "bytes": 53275,
+      "sha256": "34c8857efd9e3ed7889163b7719b2f5ac59fcc9f4d664bd1ce26dbc868467df8",
+      "completed_utc": "2026-10-30T20:11:47.690312+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "nstdb",
+      "name": "license.html",
+      "url": "https://physionet.org/content/nstdb/view-license/1.0.0/",
+      "role": "private metadata/rights evidence",
+      "started_utc": "2026-10-30T20:11:47.841875+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/content/nstdb/view-license/1.0.0/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8"
+      },
+      "bytes": 35338,
+      "sha256": "5ee394326d12d429647f2fdafe973469ffe6aeab1b42f25abfbec3d57668dd0a",
+      "completed_utc": "2026-10-30T20:11:47.942894+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "mitdb",
+      "name": "description.html",
+      "url": "https://physionet.org/content/mitdb/1.0.0/",
+      "role": "private metadata/rights evidence",
+      "started_utc": "2026-10-30T20:11:48.093975+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/content/mitdb/1.0.0/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8"
+      },
+      "bytes": 106026,
+      "sha256": "43decee46b7d82c7e4dc4b22c9ee568a23a53e805a46e2d1a74a9d1df0d02d80",
+      "completed_utc": "2026-10-30T20:11:48.457161+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "mitdb",
+      "name": "license.html",
+      "url": "https://physionet.org/content/mitdb/view-license/1.0.0/",
+      "role": "private metadata/rights evidence",
+      "started_utc": "2026-10-30T20:11:48.608492+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/content/mitdb/view-license/1.0.0/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8"
+      },
+      "bytes": 35324,
+      "sha256": "4381bfea4b79a6e121d372264d2317db78681406f2118c0c9d0902a7a929f07a",
+      "completed_utc": "2026-10-30T20:11:48.752913+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "metadata",
+      "name": "signal-format.html",
+      "url": "https://physionet.org/physiotools/wag/signal-5.htm",
+      "role": "private native-format metadata",
+      "started_utc": "2026-10-30T20:11:48.903443+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/physiotools/wag/signal-5.htm",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Thu, 08 Jun 2023 20:16:18 GMT",
+        "ETag": "W/\"64823712-21c5\""
+      },
+      "bytes": 8645,
+      "sha256": "a2554ca2796956c29622b387acfa956492c2a080d6955ce04de2a73505195123",
+      "completed_utc": "2026-10-30T20:11:48.957953+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "metadata",
+      "name": "header-format.html",
+      "url": "https://physionet.org/physiotools/wag/header-5.htm",
+      "role": "private native-format metadata",
+      "started_utc": "2026-10-30T20:11:49.109082+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/physiotools/wag/header-5.htm",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Thu, 08 Jun 2023 20:16:18 GMT",
+        "ETag": "W/\"64823712-7281\""
+      },
+      "bytes": 29313,
+      "sha256": "a52a4f06b2a227bc13794847e6a2c6f3b5455bd160c70aea2eca423080f92037",
+      "completed_utc": "2026-10-30T20:11:49.188099+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    },
+    {
+      "dataset": "metadata",
+      "name": "nst.html",
+      "url": "https://physionet.org/physiotools/wag/nst-1.htm",
+      "role": "private native-format metadata",
+      "started_utc": "2026-10-30T20:11:49.338200+00:00",
+      "http_status": 200,
+      "final_url": "https://physionet.org/physiotools/wag/nst-1.htm",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Thu, 08 Jun 2023 20:16:18 GMT",
+        "ETag": "W/\"64823712-4366\""
+      },
+      "bytes": 17254,
+      "sha256": "a70769314dd79d22d072617b7f265dc0772365525c539ed011e5556990f326cc",
+      "completed_utc": "2026-10-30T20:11:49.414244+00:00",
+      "status": "CAPTURED_VERIFIED_HTTPS"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# No candidate meets the clean-window constraint
+
+All 648 derived recording 118 windows reconcile with independent WFDB/scalar arithmetic and SQL keys. Three authored threshold pairs were calibrated on the first 30 source-clean windows and evaluated on 150 later source-clean windows plus 234 added-noise windows at -6/0/6 dB.
+
+The 0.90, 0.95 and 0.99 calibration quantiles flag 78, 68 and 58 of the 150 source-clean development windows: 52%, 45.333333333% and 38.666666667%. Their lower-SNR true-positive counts are 206, 202 and 176 of 234. Every candidate exceeds the authored 5% clean-window false-rejection limit. The fixed selection rule therefore selects the accept-all fallback. This does not establish that source-clean windows are clinically usable, that the noise labels are clinical judgments, or that a more complex gate would succeed.
+
+No alternative feature, threshold grid, constraint or subject is introduced to rescue this result. Accept-all will remain the primary frozen later rule and will be compared with the identical baseline; that primary comparison is a transparent fallback check, without a detection improvement claim.
+
+Before recording 119 features or performance are computed, add one explicit secondary diagnostic: evaluate all three already fitted candidate pairs on recording 119 and both authored transformations, without recalibration or reselection. This analysis-plan clarification is made after development results, not portrayed as part of the original untouched protocol. It lets a reader inspect the rejected gates on another recording instead of mistaking the fallback's zero rejections for quality detection. Preserve every candidate and result, including any apparently favorable later performance. A secondary result cannot retroactively make a rejected development gate eligible.
+
+The original source qualification decoded recording 119 and verified checksums/clean-segment shape, as allowed by the protocol. It did not produce recording 119 features or scores. Freeze this note, all feature/analysis/checker code, raw-file receipts, development inputs and complete selection/results before any later feature output. The final report must lead with the failed clean-window constraint and distinguish this secondary audit from the primary frozen fallback.

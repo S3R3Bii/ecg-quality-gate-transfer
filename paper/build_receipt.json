@@ -1,0 +1,19 @@
+{
+  "status": "PASS_COMPILE_AND_SIX_PAGE_VISUAL_REVIEW",
+  "timestamp_utc": "2026-10-30T20:25:32.642110+00:00",
+  "compiler": "Tectonic",
+  "command": "tectonic -X compile main.tex --keep-logs (working directory: paper)",
+  "pages": 6,
+  "render_tool": "Poppler pdftoppm",
+  "render_dpi": 95,
+  "visual_checks": "All six pages inspected; readable hierarchy, complete tables and captions, no clipping/overlap, honest axes/units, negative finding and scientific/source qualifications visible. Three current figure PNGs also inspected.",
+  "layout_warnings": [],
+  "private_log_sha256": "a7c4afd9e04288d2ba8d111538b540dee671e95e0d87bcdf2f2826fe2373865a",
+  "artifact_sha256": {
+    "paper/main.tex": "b0a167600e22a41a1f959adefead225df745bbf7d483ec407457467502cdd4fd",
+    "paper/manuscript.pdf": "905197a5d89c5f10f4e11672be3bf24b673a62d77cf883904198c32c94be9d62",
+    "paper/images/clean_window_rejections.pdf": "dd37da0037614e3e10196f26f9240bf6af1ea5217406fad218adb60c7603679b",
+    "paper/images/noise_detection_tradeoff.pdf": "cd1bfeea62819a38c16921bffe61d1859a2e8635bd05f43e6db036c4f6484d7b",
+    "paper/images/source_clean_feature_drift.pdf": "6cd4ead823f951b7b3fbd53edcc4b3da1bc049420d0029f9412ba7993b12ffdb"
+  }
+}

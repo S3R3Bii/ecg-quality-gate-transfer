@@ -1,0 +1,15 @@
+{
+  "status": "DEMONSTRATION_ONLY",
+  "rule": "accept_all",
+  "diagnostic_rejected_candidate": false,
+  "flag": 0,
+  "quality_judgment": "unavailable",
+  "features": {
+    "B": 0.0,
+    "H": 4.0
+  },
+  "reasons": [
+    "No candidate satisfied the development clean-window constraint"
+  ],
+  "scope": "Offline numerical exercise; no clinical classification, alarm-suppression or device-validation instruction"
+}

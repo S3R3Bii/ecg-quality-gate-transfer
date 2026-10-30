@@ -1,0 +1,15 @@
+{
+  "status": "DEMONSTRATION_ONLY",
+  "rule": "q099",
+  "diagnostic_rejected_candidate": true,
+  "flag": 1,
+  "quality_judgment": "unavailable",
+  "features": {
+    "B": 0.0,
+    "H": 4.0
+  },
+  "reasons": [
+    "Slope-energy ratio exceeds this frozen candidate threshold"
+  ],
+  "scope": "Offline numerical exercise; no clinical classification, alarm-suppression or device-validation instruction"
+}
